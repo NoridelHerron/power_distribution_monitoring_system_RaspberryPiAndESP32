@@ -27,9 +27,10 @@ SAMPLE_PERIOD     = 1.0 / SAMPLE_RATE
 
 # ==================== ESP NODES ====================
 NODES = {
-    1: "192.168.50.124",
-    2: "192.168.50.60",
-    3: "192.168.50.81",
+    # change "xx.xxx" based on your ESP assigned address
+    1: "192.168.XX.XXX", 
+    2: "192.168.XX.XXX",
+    3: "192.168.XX.XXX",
 }
 
 # ==================== SCENARIOS ====================
