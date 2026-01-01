@@ -117,7 +117,7 @@ The Raspberry Pi runs **two cooperating processes** to separate concerns and ens
 |---------|----------|--------|
 | Voltage Sag | < 50 V RMS | Log + Indicate |
 | Voltage Swell | > 130 V RMS | Log + Indicate |
-| Overcurrent Warning | > 11 A RMS | Log only |
+| Overcurrent Warning | > 11 A RMS | Log + Indicate |
 | Node Protection | > 15 A RMS | ESP32 isolation |
 
 > Only ESP32 nodes perform protective isolation.  
