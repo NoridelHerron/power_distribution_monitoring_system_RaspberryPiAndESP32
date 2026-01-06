@@ -9,10 +9,10 @@
 #include <math.h>
 
 /* ==================== CONFIGURATION ==================== */
-const char* ssid     = "wifry2";
-const char* password = "nmhvkh123";
+const char* ssid     = "xxxxxxxx";
+const char* password = "xxxxxxxx";
 
-#define SERVER_IP "192.168.50.1"
+#define SERVER_IP "xxx.xxx.xx.x"
 #define CMD_PORT        6000
 #define DATA_TX_PORT    5005
 #define STREAM_RX_PORT  6001
