@@ -11,7 +11,7 @@ void send_udp_command(int sock, const char* msg)
     struct sockaddr_in baddr = {
         .sin_family = AF_INET,
         .sin_port   = htons(CMD_PORT),
-        .sin_addr.s_addr = inet_addr("192.168.50.255")
+        .sin_addr.s_addr = inet_addr("192.168.xx.255")
     };
 
     sendto(sock, msg, strlen(msg), 0,
